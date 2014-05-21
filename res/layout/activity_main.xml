@@ -2,7 +2,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-
+    
     <fragment
         android:id="@+id/content"
         android:name="com.example.examplegestureproblem.ContentFragment"
@@ -14,13 +14,15 @@
         android:layout_width="100dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="#44aaaa" />
+        android:background="#44aaaa"
+        android:clickable="true" />
 
     <View
         android:id="@+id/right_drawer"
         android:layout_width="100dp"
         android:layout_height="match_parent"
         android:layout_gravity="end"
-        android:background="#44aa44" />
+        android:background="#44aa44"
+        android:clickable="true" />
 
 </android.support.v4.widget.DrawerLayout>
